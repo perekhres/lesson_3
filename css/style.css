@@ -1,0 +1,133 @@
+/* obnulajuszczyj style */
+/* *,
+*::before,
+*::after {
+      margin: 0;
+      padding: 0;
+      border: 0;
+   } */
+
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+
+
+
+
+/*anatomoia */
+
+   /* p{
+      color:brown;
+   } 
+span{
+   color:green;
+} */
+/* .text {
+   color:blue; 
+}
+.big-block {
+   font-size: 25;
+
+}
+#block{
+   color:aquamarine;
+} */
+/* tot kotoryi nize, tot glawny */
+.text{
+   /* color:red; */
+}
+.text{
+   /* color:green; */
+}
+.paragraph{
+   /* color:red; */
+}
+/* utochnienie */
+/* .text > div */
+.text{
+   /* color:green; */
+}
+div{
+   /* color:red; */
+}
+/* selekotr id > wsech */
+#block{
+   /* color:hotpink; */
+}
+.name{
+   /* color:green; */
+}
+p {
+   /* color:red;  */
+}
+/* 3.utochnienie obracshchenie */
+/*vse objekty DIV s klasom text */
+div.text{
+   color:green;
+}
+/*vse objekty s klasom text */
+.text {
+
+   color:red;
+}
+/* kombinacyja selektirov klasow */
+/* samy pryorytetny */
+#block{
+   /* color:red; */
+}
+/* vse objekty s klasami text ui paragraph ODNOWREMENNO */
+.text.paragraph{
+   /* color:green; */
+
+}
+.text{
+   /* color:red;*/
+} 
+/* p span > span */
+p span{
+   /* color:green;*/
+} 
+ span{
+    /* color:red; */
+ }
+#section{
+   color:red;
+}
+.about_text{
+   color:blue;
+}
+.block_text{
+   color: blueviolet; 
+}
+.about_text,
+.block_text{
+  color:brown; 
+}
+[class*="_text"]{
+     color:red;  
+}
+.section_text ~ p {
+   color:red;
+}
+*{
+   /* color:red; */
+}
